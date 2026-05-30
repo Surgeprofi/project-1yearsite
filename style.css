@@ -1,0 +1,487 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0b0c10;
+    color: #c5a059;
+}
+
+.site-header {
+    background-color: #36373b;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.main-logo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.site-header h1 {
+    text-align: center;
+    color: #c5a059;
+    margin: 20px 0;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2833;
+    padding: 15px 0;
+    border-bottom: 2px solid #c5a059;
+}
+
+.main-nav .nav-item {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 25px;
+    font-weight: bold;
+}
+
+.main-nav .nav-item:visited {
+    color: #8f8f8f;
+}
+
+.main-nav .nav-item:hover {
+    color: #c5a059;
+}
+
+.main-nav .nav-item:active {
+    color: #ffffff;
+    background-color: #0b0c10;
+}
+
+.main-nav .current-page {
+    color: #c5a059 !important;
+    border-bottom: 2px solid #c5a059;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.welcome-block {
+    background: #151a21;
+    padding: 35px;
+    border-radius: 6px;
+    text-align: center;
+    border: 1px solid #232d38;
+}
+
+.welcome-block p {
+    color: #95a5a6;
+}
+
+.media-block h3, .action-block h3 {
+    text-align: center;
+    color: #c5a059;
+    margin-top: 50px;
+}
+
+.gallery-row {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-row img {
+    border: 1px solid #232d38;
+    border-radius: 4px;
+    width: 45%;
+    margin: 0 15px;
+}
+
+.gallery-row img:hover {
+    border-color: #c5a059;
+}
+
+.action-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.game-btn-link img {
+    border-radius: 4px;
+    border: 2px solid #c5a059;
+}
+
+.game-btn-link:visited img {
+    border-color: #554422;
+}
+
+.game-btn-link:hover img {
+    border-color: #ffffff;
+}
+
+.game-btn-link:active img {
+    border-color: #ff0000;
+}
+
+.game-img{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0b0c10;
+    color: #e1e1e1;
+}
+
+.main-wrapper {
+    display: flex;
+}
+
+.sidebar-nav {
+    display: flex;
+    width: 260px;
+    background-color: #12161c;
+    padding: 40px 20px;
+    border-right: 2px solid #1f242d;
+}
+
+.sidebar-nav h2 {
+    color: #45f3ff;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.sidebar-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.sidebar-nav ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar-nav ul li a {
+    color: #a0aab5;
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.sidebar-nav ul li a:visited {
+    color: #626970;
+}
+
+.sidebar-nav ul li a:hover {
+    background-color: #1f242d;
+    color: #45f3ff;
+}
+
+.sidebar-nav ul li a:active {
+    background-color: #45f3ff;
+    color: #12161c;
+}
+
+.sidebar-nav ul li .active-link {
+    background-color: #1f242d !important;
+    color: #45f3ff !important;
+    font-weight: bold;
+    border-left: 3px solid #45f3ff;
+}
+
+.main-content {
+    flex: 1;
+    padding: 50px;
+}
+
+.main-content h1 {
+    color: #ffffff;
+    margin-top: 0;
+}
+
+.text-card {
+    background-color: #12161c;
+    padding: 30px;
+    border-radius: 6px;
+    border: 1px solid #1f242d;
+}
+
+.text-card ul {
+    padding-left: 20px;
+}
+
+.text-card li {
+    margin-bottom: 12px;
+}
+
+.discord-box {
+    margin-top: 40px;
+    background: #12161c;
+    padding: 30px;
+    border-radius: 6px;
+    border: 1px solid #1f242d;
+}
+
+.discord-box h3 {
+    color: #45f3ff;
+    margin-top: 0;
+}
+
+.discord-link img {
+    margin-top: 15px;
+    border-radius: 4px;
+    border: 1px solid #45f3ff;
+}
+
+.discord-link:visited img {
+    border-color: #1b5e63;
+}
+
+.discord-link:hover img {
+    border-color: #ffffff;
+}
+
+.discord-link:active img {
+    border-color: #ff0000;
+}
+
+.discord-img{
+    width: 100px;
+    height: 100px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #0f0a0a;
+    color: #dcd1cf;
+    margin: 0;
+    padding: 0;
+}
+
+.top-navigation {
+    display: flex;
+    justify-content: center;
+    background-color: #1a1111;
+    padding: 15px 0;
+    border-bottom: 1px solid #3d2222;
+}
+
+.top-navigation .nav-btn {
+    color: #b5a4a1;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    padding: 6px 12px;
+}
+
+.top-navigation .nav-btn:visited {
+    color: #6e615f;
+}
+
+.top-navigation .nav-btn:hover {
+    color: #ff4a4a;
+    background-color: #261717;
+    border-radius: 4px;
+}
+
+.top-navigation .nav-btn:active {
+    color: #ffffff;
+    background-color: #ff4a4a;
+}
+
+.top-navigation .active {
+    color: #ff4a4a !important;
+    border-bottom: 2px solid #ff4a4a;
+}
+
+.main-container {
+    max-width: 1050px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.page-title {
+    text-align: center;
+    color: #ff4a4a;
+}
+
+.cards-layout {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.cards-layout .card {
+    background-color: #1a1111;
+    padding: 25px;
+    flex: 1;
+    border-radius: 4px;
+    border-top: 3px solid #ff4a4a;
+    margin: 0 10px;
+}
+
+.cards-layout .card h3 {
+    color: #ff4a4a;
+    margin-top: 0;
+}
+
+.wiki-redirect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+    background: #1a1111;
+    padding: 40px;
+    border-radius: 4px;
+    border: 1px solid #3d2222;
+}
+
+.wiki-link img {
+    margin-top: 20px;
+    border: 2px solid #ff4a4a;
+}
+
+.wiki-link:visited img {
+    border-color: #661111;
+}
+
+.wiki-link:hover img {
+    border-color: #ffffff;
+}
+
+.wiki-link:active img {
+    border-color: #ff0000;
+}
+
+.wiki-img{
+    width: 100px;
+    height: 100px;
+}
+
+body {
+    font-family: sans-serif;
+    background: #11141a;
+    color: #eeeeee;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #090b0e;
+    padding: 20px 0;
+}
+
+.navbar a {
+    color: #7f8c8d;
+    text-decoration: none;
+    margin: 0 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navbar a:visited {
+    color: #4b5354;
+}
+
+.navbar a:hover, .navbar a.current {
+    color: #2ecc71;
+}
+
+.navbar a:active {
+    background-color: #090b0e;
+    color: #ffffff;
+}
+
+.profile-box {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.user-card {
+    display: flex;
+    background: #171c24;
+    border-radius: 6px;
+    padding: 40px;
+    border: 1px solid #232a36;
+}
+
+.avatar-holder {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 40px;
+}
+
+.avatar-holder img {
+    border-radius: 4px;
+    border: 2px solid #2ecc71;
+    width: 150px;
+    height: 150px;
+}
+
+.user-details {
+    flex: 1;
+}
+
+.user-details h2 {
+    margin-top: 0;
+}
+
+.gold-text {
+    color: #2ecc71;
+}
+
+.online-status {
+    display: inline-block;
+    background-color: #232a36;
+    color: #2ecc71;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.user-bio h3 {
+    border-bottom: 1px solid #232a36;
+    padding-bottom: 8px;
+    color: #7f8c8d;
+}
+
+.external-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.profile-anchor img {
+    border-radius: 4px;
+    border: 1px solid #232a36;
+}
+
+.profile-anchor:visited img {
+    border-color: #141a21;
+}
+
+.profile-anchor:hover img {
+    border-color: #2ecc71;
+}
+
+.profile-anchor:active img {
+    border-color: #ff0000;
+}
+
+.profile-img{
+    width: 100px;
+    height: 100px;
+}
